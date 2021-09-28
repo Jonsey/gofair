@@ -8,8 +8,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/belmegatron/gofair"
-	"github.com/belmegatron/gofair/streaming/models"
+	"github.com/jonsey/gofair"
+	"github.com/jonsey/gofair/streaming/models"
 )
 
 type IMarketStream interface {
@@ -291,7 +291,7 @@ func (l *Listener) writePump(errChan *chan error) {
 				return
 			}
 			l.write(b)
-			
+
 		}
 	}
 }

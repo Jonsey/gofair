@@ -3,7 +3,7 @@ package streaming
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/belmegatron/gofair/streaming/models"
+	"github.com/jonsey/gofair/streaming/models"
 )
 
 type MarketStream struct {
