@@ -1,4 +1,4 @@
-module github.com/belmegatron/gofair
+module github.com/jonsey/gofair
 
 go 1.15
 
